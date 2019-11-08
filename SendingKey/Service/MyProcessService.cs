@@ -4,14 +4,17 @@ using System.Linq;
 
 namespace SendingKey.Data
 {
-    public class MyProcessService
+    public static class MyProcessService
     {
-        public MyProcessService()
-        { }
-
-        public Process GetProcessByName(string processName)
-        { 
+        
+        public static Process GetProcessByName(string processName)
+        {
+            var p = Process.GetProcesses();
             return Process.GetProcessesByName(processName).FirstOrDefault();
+        }
+        public static Process[] GetProcess()
+        {
+            return Process.GetProcesses();
         }
     }
 }

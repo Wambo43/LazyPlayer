@@ -1,0 +1,28 @@
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\bin\Debug\SendingKey.exe.config
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\bin\Debug\SendingKey.exe
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\bin\Debug\SendingKey.pdb
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.csprojAssemblyReference.cache
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\MainWindow.g.cs
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\App.g.cs
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey_MarkupCompile.cache
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\MainWindow.baml
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.g.resources
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.Properties.Resources.resources
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.csproj.GenerateResource.cache
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.csproj.CoreCompileInputs.cache
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.exe
+C:\Users\jlu\source\Localrepos\SendingKey\SendingKey\obj\Debug\SendingKey.pdb
+F:\Uni zeuch\repos\SendingKey\SendingKey\bin\Debug\SendingKey.exe.config
+F:\Uni zeuch\repos\SendingKey\SendingKey\bin\Debug\SendingKey.exe
+F:\Uni zeuch\repos\SendingKey\SendingKey\bin\Debug\SendingKey.pdb
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.csprojAssemblyReference.cache
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\MainWindow.baml
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\MainWindow.g.cs
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\App.g.cs
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey_MarkupCompile.cache
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.g.resources
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.Properties.Resources.resources
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.csproj.GenerateResource.cache
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.csproj.CoreCompileInputs.cache
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.exe
+F:\Uni zeuch\repos\SendingKey\SendingKey\obj\Debug\SendingKey.pdb

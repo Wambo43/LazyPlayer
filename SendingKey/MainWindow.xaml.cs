@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
+using SendingKey.Data;
+using SendingKey.Rules;
 using SendingKey.Service;
+using SendingKey.ViewModels;
 
 namespace SendingKey
 {
@@ -11,35 +15,16 @@ namespace SendingKey
     /// </summary>
     public partial class MainWindow : Window
     {
-        private AfkService afkService;
-        private bool afkProcessIsAlive = false;
-
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new DataRulesViewModel();
             init();
         }
 
         private void init()
         {
             this.StartAfkService.Content = "Start Service";
-            this.afkService = new AfkService();
-        }
-
-        private void StartProcess(object sender, RoutedEventArgs e)
-        {
-            this.afkService.init(this.WorkingProcess.Text);
-            string comandLineInText = this.CommandLine.Text;
-            if (!afkProcessIsAlive)
-            {
-                afkProcessIsAlive = this.afkService.startAfkProces(comandLineInText);
-                this.StartAfkService.Content = "Abort Service";
-            }
-            else
-            {
-                afkProcessIsAlive = this.afkService.AportAfkProcess();
-                this.StartAfkService.Content = "Start Service";
-            }
         }
 
         private void TextBoxCommandLine_PreviewKeyUp(object sender, KeyEventArgs e)
@@ -105,6 +90,12 @@ namespace SendingKey
                     return key.ToString().Replace("NumPad", "");
             }
             return key.ToString();
+        }
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^0-9]+");
+            e.Handled = regex.IsMatch(e.Text);
         }
     }
 }

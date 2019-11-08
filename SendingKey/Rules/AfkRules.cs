@@ -14,7 +14,7 @@ namespace SendingKey.Rules
         { }
         public void easyAfkWorkThread(object dataRulesContainer)
         {
-            DataRulesContainer dataRules = dataRulesContainer as DataRulesContainer;
+            DataRulesAfkContainer dataRules = dataRulesContainer as DataRulesAfkContainer;
             var myInteropt = dataRules.MyInteroptService as MyInteroptService;
             SpecifyCharacters sC= new SpecifyCharacters();
             if (myInteropt != null)
@@ -33,7 +33,7 @@ namespace SendingKey.Rules
 
         public void advancedAfkWorkThread(object dataRulesContainer)
         {
-            DataRulesContainer dataRules = dataRulesContainer as DataRulesContainer;
+            DataRulesAfkContainer dataRules = dataRulesContainer as DataRulesAfkContainer;
             var myInteropt = dataRules.MyInteroptService as MyInteroptService;
             SpecifyCharacters sC = new SpecifyCharacters();
             if (myInteropt != null)
